@@ -31,6 +31,13 @@ Values are always between [-3;+3]
 Avg
 SD
 = (x-avg)/sd
+
+| Salary      | Age         |
+| ----------- | ----------- |
+| $70,000     | 45       |
+| $60,000     | 44        |
+| $52,000     | 40        |
+
 Ex: s1, s2, s3 = {$70k, $60k, $52k}, a1, a2, a3 = {45, 44, 40}
 Diff = {s1-s2, s3-s2}, {a1-a2, a3-a2} = {10k, 8k}, {1, 4}
 Therefore, scaling is important.
