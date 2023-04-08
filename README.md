@@ -40,8 +40,7 @@ Example:
 | $60,000     | 44        |
 | $52,000     | 40        |
 
-x<sub>min</sub> in Salary column = $52,000
-x<sub>min</sub> in Age column = 40
+x<sub>min</sub> in Salary column = $52,000, and x<sub>min</sub> in Age column = 40
 
 Applying below formula
 > $$ x - x<sub>min</sub> \over x~max~ - x~min~ $$
@@ -56,3 +55,13 @@ $\implies$ Age x<sub>min</sub> = 40
 | $0     | 0        |
 
 $\therefore$ Person 2 is closer to Person 1 in Age.
+
+#### Data Preprocessing
+1. Get the **DataSet**
+2. Import the lib
+3. Import the DataSet
+4. Missing Data
+5. Categorical Data
+6. Splitting the DataSet into **Training** and **Test** sets
+7. **Feature Scaling**
+8. Data Preprocessing template
