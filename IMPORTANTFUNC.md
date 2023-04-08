@@ -15,4 +15,6 @@ dataset$Country = factor(dataset$Country,
 7. install.packages('caTools')
 8. library(caTools) # caTool is *without* quotes. library is used to include a library.
 9. set.seed(123) # Used for RANDOMIZATION. Should be same, for same results.
+10. # The <split> function results TRUE or FALSE, based on whether the row is selected for Training DateSet or not
+split = sample.split(dataset$Purchased, SplitRatio = 0.8) #0.8 means 80% data has to be selected for Training Dataset
 ```
