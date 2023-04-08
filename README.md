@@ -56,6 +56,8 @@ $\implies$ Age x<sub>min</sub> = 40
 
 $\therefore$ Person 2 is closer to Person 1 in Age.
 
+> Predict dependent var based on independent vars.
+
 #### Data Preprocessing
 1. Get the **DataSet**
 2. Import the lib
