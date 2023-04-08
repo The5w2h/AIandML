@@ -21,6 +21,7 @@
 > **RULE**
 > Feature scaling is applied on *Columns ONLY*. Can’t be applied across a column.
 
+*Why*
 ##### 1. Normalization: 
 Values are always between [0;1]
 * Get max in the col
