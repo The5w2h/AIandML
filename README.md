@@ -28,8 +28,8 @@ Values are always between [0;1]
 > $$ x - x<sub>min</sub> \over x~max~ - x~min~ $$
 ##### 2. Standardization: 
 Values are always between [-3;+3]
-Avg
-SD
+1. Find \mu
+2. Find \sigma
 > $$ (x-\mu) \over \sigma $$
 
 Example:
