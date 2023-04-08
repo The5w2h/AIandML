@@ -54,3 +54,5 @@ Applying below formula
 | $1     | 1       |
 | $0.44     | 0.8        |
 | $0     | 0        |
+
+$\therefore$ Person 2 is closer to Person 1 in Age.
