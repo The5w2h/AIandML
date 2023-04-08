@@ -30,7 +30,7 @@ Values are always between [0;1]
 Values are always between [-3;+3]
 Avg
 SD
-$$ (x-$\mu$) \over $\sigma$ $$
+> $$ (x-$\mu$) \over $\sigma$ $$
 
 | Salary      | Age         |
 | ----------- | ----------- |
