@@ -11,3 +11,5 @@
 > dataset$Country = factor(dataset$Country,
                          levels = c('France', 'Spain', 'Germany'),
                          labels = c(1, 2, 3))
+7. install.packages('caTools')
+8. library(caTools)
