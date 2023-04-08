@@ -21,12 +21,12 @@
 > RULE
 > Feature scaling is applied on *Columns ONLY*. Can’t be applied across a column.
 
-##### Normalization: 
+##### 1. Normalization: 
 Values are always between [0;1]
 * Get max in the col
 * Get min in the col
 > $$ x - x<sub>min</sub> \over x~max~ - x~min~ $$
-##### Standardization: 
+##### 2. Standardization: 
 Values are always between [-3;+3]
 Avg
 SD
