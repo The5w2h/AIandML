@@ -17,4 +17,6 @@ dataset$Country = factor(dataset$Country,
 9. set.seed(123) # Used for RANDOMIZATION. Should be same, for same results.
 10. # The <split> function results TRUE or FALSE, based on whether the row is selected for Training DateSet or not
 split = sample.split(dataset$Purchased, SplitRatio = 0.8) #0.8 means 80% data has to be selected for Training Dataset
+11. training_set = subset(dataset, split == TRUE) # subset for Training created which contains subset of dataset where split is TRUE
+12. test_set = subset(dataset, split == FALSE) # subset for Test created which contains subset of dataset where split is FALSE
 ```
