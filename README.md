@@ -18,7 +18,7 @@
   * Make verdict
 
 #### Feature Scaling
-> RULE
+> **RULE**
 > Feature scaling is applied on *Columns ONLY*. Can’t be applied across a column.
 
 ##### 1. Normalization: 
