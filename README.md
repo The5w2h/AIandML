@@ -1,20 +1,21 @@
 #AI and ML
-####Steps required in ML
-1. Data Preprocessing
-    Import
-    Clean
-    Split: Training (80%) and Test (20%)
-    Importance
-Training DataSet is used to build Models (Linear regression etc.).
-Take data from Test and apply the Model to Test data.
-Compare predicted values with actual values.
-Modeling
-Build
-Train
-Make predictions
-Evaluation
-Calculate performance metrics
-Make verdict
+
+#### Steps required in ML
+* Data Preprocessing
+  * Import
+  * Clean
+  * Split: **Training (80%) and Test (20%)**
+  >Importance
+  Training DataSet is used to build Models (Linear regression etc.).
+  Take data from Test and apply the Model to Test data.
+  Compare predicted values with actual values.
+* Modeling
+  * Build
+  * Train
+  * **Make predictions**
+* Evaluation
+  * Calculate **performance metrics**
+  * Make verdict
 
 Feature Scaling
 RULE: Feature scaling is applied in Columns. Can’t be applied across a column.
