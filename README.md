@@ -17,8 +17,10 @@
   * Calculate **performance metrics**
   * Make verdict
 
-Feature Scaling
-RULE: Feature scaling is applied in Columns. Can’t be applied across a column.
+#### Feature Scaling
+> RULE
+> Feature scaling is applied in Columns. Can’t be applied across a column.
+
 Normalization: Values always between [0;1]
 Get max in the col
 Get min in the col
