@@ -21,7 +21,9 @@
 > **RULE**
 > Feature scaling is applied on *Columns ONLY*. Can’t be applied across a column.
 
-*Why*
+*Why to use?*
+> So that the Euclidean distance is not dominated by a column.
+
 ##### 1. Normalization: 
 Values are always between [0;1]
 * Get max in the col
