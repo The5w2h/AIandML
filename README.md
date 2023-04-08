@@ -19,13 +19,15 @@
 
 #### Feature Scaling
 > RULE
-> Feature scaling is applied in Columns. Can’t be applied across a column.
+> Feature scaling is applied on *Columns ONLY*. Can’t be applied across a column.
 
-Normalization: Values always between [0;1]
-Get max in the col
-Get min in the col
-(x - xmin)/(xmax - xmin)
-Standardization: [-3;+3]
+##### Normalization: 
+Values are always between [0;1]
+* Get max in the col
+* Get min in the col
+> $x - x~min~$/(x~max~ - x~min~)
+##### Standardization: 
+Values are always between [-3;+3]
 Avg
 SD
 = (x-avg)/sd
