@@ -4,14 +4,15 @@
 3. ifelse() *Three params. 1. Condition, 2. value that should be entered if val = true, and 3. value that should be entered if val = false*
 4. is.na *If the val in a col is empty*
 5. Way to write ifelse and average: na.rm = TRUE $\implies$ Ask R fill the missing value
-> dataset$Age = ifelse(is.na(dataset$Age),
+dataset$Age = ifelse(is.na(dataset$Age),
                      ave(dataset$Age, FUN = function(x) mean(x, na.rm = TRUE)),
                      dataset$Age)
                      
 6. *For Encoding Categorical Data* factor(x, levels = c(), labels = c())
-> dataset$Country = factor(dataset$Country,
+dataset$Country = factor(dataset$Country,
                          levels = c('France', 'Spain', 'Germany'),
                          labels = c(1, 2, 3))
 7. install.packages('caTools')
 8. library(caTools) # caTool is *without* quotes. library is used to include a library.
+9. set.seed(123) # Used for RANDOMIZATION. Should be same, for same results.
 ```
