@@ -49,8 +49,8 @@ Applying below formula
 ➡️ Salary x<sub>min</sub> = $52,000
 ➡️ Age x<sub>min</sub> = 40 
 
-
-Diff = {s1-s2, s3-s2}, {a1-a2, a3-a2} = {10k, 8k}, {1, 4}
-Therefore, scaling is important.
-N = s: {(60-52)/(70-52)}, a: {(44-40)/(45-40)}
-=> N = s: {0.44}, a: {0.8}
+| Salary      | Age         |
+| ----------- | ----------- |
+| $1     | 1       |
+| $0.44     | 0.8        |
+| $0     | 0        |
