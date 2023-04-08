@@ -22,7 +22,7 @@
 > Feature scaling is applied on *Columns ONLY*. Can’t be applied across a column.
 
 *Why to use?*
-> So that the Euclidean distance is not dominated by a column.
+> So that the Euclidean distance is not dominated by a column. Puts all the values on same scale.
 
 ##### 1. Normalization: 
 Values are always between [0;1]
