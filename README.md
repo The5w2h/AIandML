@@ -46,7 +46,8 @@ x<sub>min</sub> in Age column = 40
 Applying below formula
 > $$ x - x<sub>min</sub> \over x~max~ - x~min~ $$
 
---> 
+➡️ Salary x<sub>min</sub> = $52,000
+➡️ Age x<sub>min</sub> = 40 
 
 
 Diff = {s1-s2, s3-s2}, {a1-a2, a3-a2} = {10k, 8k}, {1, 4}
