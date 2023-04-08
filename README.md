@@ -44,9 +44,7 @@ x<sub>min</sub> in Salary column = $52,000
 x<sub>min</sub> in Age column = 40
 
 Applying below formula
-$$
-x - x<sub>min</sub> \over x~max~ - x~min~
-$$
+> $$ x - x<sub>min</sub> \over x~max~ - x~min~ $$
 
 &rarr 
 
