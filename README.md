@@ -62,7 +62,7 @@ $\therefore$ Person 2 is closer to Person 1 in Age.
 1. Get the **DataSet**
 2. Import the lib
 3. Import the DataSet
-4. Missing Data
+4. **Missing Data**
 5. Categorical Data
 6. Splitting the DataSet into **Training** and **Test** sets
 7. **Feature Scaling**
