@@ -56,7 +56,7 @@ $\implies$ Age x<sub>min</sub> = 40
 
 $\therefore$ Person 2 is closer to Person 1 in Age.
 
-> Predict dependent var based on independent vars.
+> **Predict dependent var (col) based on independent vars (cols)**
 
 #### Data Preprocessing
 1. Get the **DataSet**
