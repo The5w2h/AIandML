@@ -25,7 +25,7 @@
 Values are always between [0;1]
 * Get max in the col
 * Get min in the col
-> $$ x - x~min~ \over x~max~ - x~min~ $$
+> $$ x - x<sub>min</sub> \over x~max~ - x~min~ $$
 ##### Standardization: 
 Values are always between [-3;+3]
 Avg
