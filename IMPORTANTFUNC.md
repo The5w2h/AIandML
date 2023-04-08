@@ -7,7 +7,7 @@
                      ave(dataset$Age, FUN = function(x) mean(x, na.rm = TRUE)),
                      dataset$Age)
                      
-6. factor(x, levels = c(), labels = c())
+6. *For Encoding Categorical Data* factor(x, levels = c(), labels = c())
 > dataset$Country = factor(dataset$Country,
                          levels = c('France', 'Spain', 'Germany'),
                          labels = c(1, 2, 3))
