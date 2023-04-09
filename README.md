@@ -141,4 +141,4 @@ Used to deal with **Categorical var** in a multiple linear reg equation.
 2. Hypothesis Testing: $H_0$: null hypo, $H_a$ alt hypo. ASSUME: $H_0$ is True (e.g. is it a fair coin)
 
 ## How to build a Model
-1. Throw out some independent var, $\since$ it can be a garbage model
+1. Throw out some independent var, $\because$ it can be a garbage model
