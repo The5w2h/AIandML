@@ -97,6 +97,10 @@ $\hat{y_i}$ = **Predicted Value** via regression line <br>
 $y_i$ = **Actual Value**
 Find the line for which the diff between *Predicted Value and Actual Value* is least. The diff is called **Residual** represented by $\epsilon_i$
 
+$$
+\epsilon = y_i - \hat{y_i}
+$$
+
 $b_0$ and $b_1$ should be such that, $\epsilon^2$ is minimized
 
 
