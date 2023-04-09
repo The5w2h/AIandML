@@ -86,8 +86,8 @@ $$
 $$
 
 where <br>
-$\hat{y}$ = dependent var, <br>
+$\hat{y}$ = *PREDICTED* dependent var, <br>
   $b_0$ = y intercept (a constant), <br>
   $b_1$ = , <br>
-  $X_1$ = independent variable <br>
+  $X_1$ = *PREDICTOR* independent variable <br>
 
