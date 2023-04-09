@@ -88,6 +88,11 @@ $$
 where <br>
 $\hat{y}$ = *PREDICTED* dependent var, <br>
   $b_0$ = y intercept (a constant), <br>
-  $b_1$ = , <br>
+  $b_1$ = slope co-efficient, <br>
   $X_1$ = *PREDICTOR* independent variable <br>
+  
+### Ordinary Least Squares
+A: Which sloped line is the best one? Use *Least Squares*. Project data points vertically on the regression line.
+$\hat{y_i}$ = **Predicted Value** via regression line <br>
+$y_i$ = **Actual Value**
 
