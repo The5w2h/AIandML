@@ -129,3 +129,11 @@ $$
 4. Independence of obs: No correlation $\rho$ = 0 between observation. No pattern in data. e.g. Stock market
 5. Lack of multicollinearity: Predictors should not be correlated
 6. No **Outlier**
+
+### Dummy Variables
+Used to deal with **Categorical var** in a multiple linear reg equation.
+1. Find all the diff cat levels that you have. Create a new col per new category. *These new col are called **Dummy Var** *
+2. Put 1 for the rows where that cat is present, else put 0.
+3. Used for multicollinearity. Include all BUT ONE dummy var
+
+## P value
