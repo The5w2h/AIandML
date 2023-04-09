@@ -137,5 +137,5 @@ Used to deal with **Categorical var** in a multiple linear reg equation.
 3. Used for multicollinearity. Include all BUT ONE dummy var
 
 ## P value
-1. Are these insights statistically significant. Feel about experiment vs statistical significance.
+1. Are these insights statistically significant. Feel about experiment vs statistical significance ($\alpha$ : Draw a line. Reject $H_0$)
 2. Hypothesis Testing: $H_0$: null hypo, $H_a$ alt hypo. ASSUME: $H_0$ is True (e.g. is it a fair coin)
