@@ -1,4 +1,4 @@
-#AI and ML
+# AI and ML
 
 ## Steps required in ML
 * Data Preprocessing
