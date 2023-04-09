@@ -82,5 +82,5 @@ Machine Learning Regression models:
 
 ## Simple Linear Regression
 $$
-\hat{y} = b<sub>0</sub> + b<sub>1</sub>X<sub>1</sub>
+\hat{y} = b_0 + b_1 X_1
 $$
