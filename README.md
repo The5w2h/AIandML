@@ -83,8 +83,9 @@ Machine Learning Regression models:
 ## Simple Linear Regression
 $$
 \hat{y} = b_0 + b_1 X_1
-where \hat{y} = dependent var
-b_0 = y intercept (a constant)
-b_1 = 
-X_1 = dependent variable
 $$
+where $\hat{y}$ = dependent var
+$b_0$ = y intercept (a constant)
+$b_1$ = 
+$X_1$ = dependent variable
+
