@@ -138,4 +138,4 @@ Used to deal with **Categorical var** in a multiple linear reg equation.
 
 ## P value
 1. Are these insights statistically significant. Feel about experiment vs statistical significance.
-2. Hypothesis Testing: H_0: null hypo, H_a alt hypo
+2. Hypothesis Testing: $H_0$: null hypo, $H_a$ alt hypo
