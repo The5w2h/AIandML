@@ -49,4 +49,33 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 Residual standard error: 5391 on 18 degrees of freedom
 Multiple R-squared:  0.9649 # Used for single var.,	Adjusted R-squared:  0.963 # Used for multiple independent var
 F-statistic: 494.8 on 1 and 18 DF,  p-value: 1.524e-14
+18. y_pred = predict(regressor, newdata = test_set) # IMPORTANT function
+# y_pred: predictor
+# regressor: model
+# newdata: dataset on which this new model (regressor) needs to be tested
+
+19. # Visualising the Training set results
+library(ggplot2)
+ggplot() + # each component is added by +
+  geom_point(aes(x = training_set$YearsExperience, y = training_set$Salary), # aes is the aesthetic fn. X and Y var.
+             colour = 'red') + # 1. Plot everything on the *training*  set
+  geom_line(aes(x = training_set$YearsExperience, y = predict(regressor, newdata = training_set)),
+            colour = 'blue') + # 2. Plot the regression line
+  ggtitle('Salary vs Experience (Training set)') + # 3. Title. Simple *gg* prefix will work
+  xlab('Years of experience') + # Label for x-axis
+  ylab('Salary') # Label for y-axis
+
+# Visualizing the Test set results
+#install.packages('ggplot2')
+library(ggplot2) # not in quotes
+ggplot() +
+  geom_point(aes(x = test_set$YearsExperience, y = test_set$Salary), # *geom* prefix since a line or point is related to geometry
+             colour = 'red') +
+  geom_line(aes(x = training_set$YearsExperience, y = predict(regressor, newdata = training_set)),
+            colour = 'blue') +
+  ggtitle('Salary vs Experience (Test set)') +
+  xlab('Years of experience') +
+  ylab('Salary')
+  
+ 20. 
 ```
