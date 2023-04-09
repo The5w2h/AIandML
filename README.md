@@ -146,5 +146,5 @@ Throw out some independent var, $\because$ it can be a garbage model
 1. **All in**: Prior knowledge; You have to use it (recommended); Preparing for *backward e*
 2. Backward Elimination (Step wise regression) (1) Select significance level $\alpha$. Normally $\alpha$ = 0.05, (2) Fit model with all the predictors $X_i$, (3) Remove predictor for which $p_i$ > $\alpha$ is max (4) Fit model without this variable
 3. Forward Selection (Step wise regression) 1) Select significance level $\alpha$. Normally $\alpha$ = 0.05, (2) Fit model with *each of the predictors* $X_i$, (3) Select predictor for which $p_i$ < $\alpha$ is the least, (4) Fit with 2 var, then 3, then 4 ... and so on. Stop when $p_i$ > $\alpha$
-4. **Bidirectional Elimination** (BEST. Step wise regression): (1) Select $\alpha$ enter and $\alpha$ stay
+4. **Bidirectional Elimination** (BEST. Step wise regression): (1) Select $\alpha$ enter and $\alpha$ stay. (2) Select a var if $p_i$ < $\alpha$ enter, (3) Perform all steps of *Backward Elimination* all var must have $p_i$ < $\alpha$ stay
 5. Score Comparison ()
