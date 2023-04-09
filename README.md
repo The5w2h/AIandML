@@ -116,4 +116,7 @@ $b_0$ and $b_1$ should be such that, $\epsilon^2$ is **minimized**.
 5. **Visualize Train Set** using ggplot2 in steps separated by '+' sign geom_point + geom_line + ggtitle + xlab + ylab
 
 
-
+## Multiple Linear Regression
+$$
+\hat{y} = b_0 + b_1 X_1 + b_2 X_2 + b_3 X_3 + ... + b_n X_n
+$$
