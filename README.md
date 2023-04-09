@@ -92,7 +92,8 @@ $\hat{y}$ = *PREDICTED* dependent var, <br>
   $X_1$ = *PREDICTOR* independent variable <br>
   
 ### Ordinary Least Squares
-A: Which sloped line is the best one? Use *Least Squares*. Project data points vertically on the regression line.
+A: Which sloped line is the best one? Use *Least Squares*. Project data points vertically on the regression line. <br>
 $\hat{y_i}$ = **Predicted Value** via regression line <br>
 $y_i$ = **Actual Value**
+Find the line for which the diff between *Predicted Value and Actual Value* is least. The diff is called **Residual** represented by $\epsilon_i$
 
