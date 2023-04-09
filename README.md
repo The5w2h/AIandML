@@ -148,3 +148,9 @@ Throw out some independent var, $\because$ it can be a garbage model
 3. Forward Selection (Step wise regression) 1) Select significance level $\alpha$. Normally $\alpha$ = 0.05, (2) Fit model with *each of the predictors* $X_i$, (3) Select predictor for which $p_i$ < $\alpha$ is the least, (4) Fit with 2 var, then 3, then 4 ... and so on. Stop when $p_i$ > $\alpha$
 4. **Bidirectional Elimination** (BEST. Step wise regression): (1) Select $\alpha$ enter and $\alpha$ stay. (2) Select a var if $p_i$ < $\alpha$ enter, (3) Perform all steps of *Backward Elimination* for old var must have $p_i$ < $\alpha$ stay
 5. Score comparison: (BAD) Thorough *but resource consuming* approach. (1) Select a **goodness-of-fit** criterion (such as Akaike 😕, $R^2$ criterion), (2) Construct all possible regression models $2^n$ - 1 (3) Select one with best criterion.
+
+## Multiple Polynomial Regression
+
+$$
+\hat{y} = b_0 + b_1 X_1 + b_2 X_2^2 + b_3 X_3^3 + ... + b_n X_n^n
+$$
