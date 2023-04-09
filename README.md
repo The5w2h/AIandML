@@ -79,3 +79,8 @@ Machine Learning Regression models:
 4. Support Vector for Regression (SVR)
 5. Decision Tree Regression
 6. Random Forest Regression
+
+## Simple Linear Regression
+$$
+$\hat{y}$ = b~0~ + b~1~X~1~
+$$
