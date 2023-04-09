@@ -110,7 +110,7 @@ $b_0$ and $b_1$ should be such that, $\epsilon^2$ is **minimized**.
 1. **Read** the dataset
 2a. **Split** the dataset into Train and Test: (library caTools, split(col, splitratio) )
 2b. **Create subset** of train and test sets using subset(dataset, split = bool) *TRUE* for train
-3. **Make the *Model* ** Use lm formula to make the model or fit the regression line lm(formula = dep. var ~ ind. var, data = dataset)
+3. ***Make the Model*** Use lm formula to make the model or fit the regression line lm(formula = dep. var ~ ind. var, data = dataset)
 4. **Predict** using predict func. predict(modelname, newdata = test subset)
 5. **Visualize Train Set** using ggplot2 in steps separated by '+' sign geom_point + geom_line + ggtitle + xlab + ylab
 
