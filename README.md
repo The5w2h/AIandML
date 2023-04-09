@@ -140,11 +140,11 @@ Used to deal with **Categorical var** in a multiple linear reg equation.
 1. Are these insights statistically significant. Feel about experiment vs statistical significance ($\alpha$ : Draw a line. Reject $H_0$)
 2. Hypothesis Testing: $H_0$: null hypo, $H_a$ alt hypo. ASSUME: $H_0$ is True (e.g. is it a fair coin)
 
-## How to build a Model
+### How to build a Model in Multiple Linear Regression
 Throw out some independent var, $\because$ it can be a garbage model
 **Methods for Building Models**
-1. All in: Prior knowledge; You have to use it (recommended); Preparing for *backward e*
-2. Backward Elimination (Step wise regression) (1) Select significance * $\alpha$ *. Normally $\alpha$ = 0.05, (2) Fit model with all the predictors $X_i$, (3) Remove predictor for which $p_i$ > $\alpha$ (4) Fit model without this variable
-3. Forward Selection (Step wise regression)
-4. Bidirectional Elimination (Step wise regression)
+1. **All in**: Prior knowledge; You have to use it (recommended); Preparing for *backward e*
+2. Backward Elimination (Step wise regression) (1) Select significance level $\alpha$. Normally $\alpha$ = 0.05, (2) Fit model with all the predictors $X_i$, (3) Remove predictor for which $p_i$ > $\alpha$ is max (4) Fit model without this variable
+3. Forward Selection (Step wise regression) 1) Select significance level $\alpha$. Normally $\alpha$ = 0.05, (2) Fit model with *each of the predictors* $X_i$, (3) Select predictor for which $p_i$ < $\alpha$ is the least, (4) Fit with 2 var, then 3, then 4 ... and so on. Stop when $p_i$ > $\alpha$
+4. **Bidirectional Elimination** (BEST. Step wise regression): (1) Select $\alpha_enter$, $\alpha_stay$
 5. Score Comparison ()
