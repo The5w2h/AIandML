@@ -150,7 +150,11 @@ Throw out some independent var, $\because$ it can be a garbage model
 5. Score comparison: (BAD) Thorough *but resource consuming* approach. (1) Select a **goodness-of-fit** criterion (such as Akaike 😕, $R^2$ criterion), (2) Construct all possible regression models $2^n$ - 1 (3) Select one with best criterion.
 
 ## Multiple Polynomial Regression
+1 var but different powers of the variable.
+> Linearity is based on the power of coef
 
 $$
 \hat{y} = b_0 + b_1 X_1 + b_2 X_1^2 + b_3 X_1^3 + ... + b_n X_1^n
 $$
+
+
