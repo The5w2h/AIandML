@@ -18,7 +18,7 @@
   * Make verdict
 
 #### Feature Scaling
-> **RULE**
+> <style color:'READ'>**RULE** </style>
 > Feature scaling is applied on *Columns ONLY*. Can’t be applied across a column.
 
 *Why to use?*
