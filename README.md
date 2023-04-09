@@ -96,12 +96,15 @@ A: Which sloped line is the best one? Use *Least Squares*. Project data points v
 $\hat{y_i}$ = **Predicted Value** via regression line <br>
 $y_i$ = **Actual Value**
 Find the line for which the diff between *Predicted Value and Actual Value* is least. The diff is called **Residual** represented by $\epsilon_i$
-
+💡 Residual Square is of interest.
 $$
-\epsilon = y_i - \hat{y_i}
+\epsilon_i = y_i - \hat{y_i}
 $$
 
-$b_0$ and $b_1$ should be such that, $\epsilon^2$ is minimized
+$b_0$ and $b_1$ should be such that, $\epsilon^2$ is **minimized**.
+1. Find out the residual square for each of the data points
+2. Sum them
+3. The line for which the *Sum* in point 2 is **smallest** is the best line
 
 
 
