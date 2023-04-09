@@ -69,4 +69,12 @@ $\therefore$ Person 2 is closer to Person 1 in Age.
 5. Categorical Data
 6. Splitting the DataSet into **Training** and **Test** sets
 7. **Feature Scaling**
-8. Data Preprocessing template
+
+## Types of Regression
+Machine Learning Regression models:
+1. Simple Linear Regression
+2. Multiple Linear Regression
+3. Polynomial Regression
+4. Support Vector for Regression (SVR)
+5. Decision Tree Regression
+6. Random Forest Regression
