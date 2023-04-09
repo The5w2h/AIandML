@@ -86,7 +86,7 @@ $$
 $$
 
 where $\hat{y}$ = dependent var, 
-  $b_0$ = y intercept (a constant), \n
-  $b_1$ = , \n
-  $X_1$ = independent variable
+  $b_0$ = y intercept (a constant), <br>
+  $b_1$ = , <br>
+  $X_1$ = independent variable <br>
 
