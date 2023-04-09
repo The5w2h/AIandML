@@ -1,6 +1,6 @@
 #AI and ML
 
-#### Steps required in ML
+## Steps required in ML
 * Data Preprocessing
   * Import
   * Clean
