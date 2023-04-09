@@ -144,7 +144,7 @@ Used to deal with **Categorical var** in a multiple linear reg equation.
 Throw out some independent var, $\because$ it can be a garbage model
 **Methods for Building Models**
 1. All in: Prior knowledge; You have to use it (recommended); Preparing for *backward e*
-2. Backward Elimination (Step wise regression) (1) Select SL $\alpha$. Normally $\alpha$ = 0.05, (2) Fit model with all the predictors $X_i$, (3) Remove predictor for which $p_i$ > $\alpha$
+2. Backward Elimination (Step wise regression) (1) Select significance * $\alpha$ *. Normally $\alpha$ = 0.05, (2) Fit model with all the predictors $X_i$, (3) Remove predictor for which $p_i$ > $\alpha$ (4) Fit model without this variable
 3. Forward Selection (Step wise regression)
 4. Bidirectional Elimination (Step wise regression)
 5. Score Comparison ()
