@@ -152,5 +152,5 @@ Throw out some independent var, $\because$ it can be a garbage model
 ## Multiple Polynomial Regression
 
 $$
-\hat{y} = b_0 + b_1 X_1 + b_2 X_2^2 + b_3 X_3^3 + ... + b_n X_n^n
+\hat{y} = b_0 + b_1 X_1 + b_2 X_1^2 + b_3 X_1^3 + ... + b_n X_1^n
 $$
