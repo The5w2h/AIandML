@@ -88,9 +88,9 @@ Residuals:
 -33128  -4865      5   6098  18065 
 
 Coefficients:
-                  Estimate Std. Error t value Pr(>|t|)    
-(Intercept)      4.965e+04  7.637e+03   6.501 1.94e-07 ***
-R.D.Spend        7.986e-01  5.604e-02  14.251 6.70e-16 ***
+                  Estimate Std. Error t value Pr(>|t|)    # Last 2 col P val and SL are most important as it tells about Stat Signi
+(Intercept)      4.965e+04  7.637e+03   6.501 1.94e-07 *** MORE IMPACT since 3 Star
+R.D.Spend        7.986e-01  5.604e-02  14.251 6.70e-16 *** MORE IMPACT since 3 Star
 Administration  -2.942e-02  5.828e-02  -0.505    0.617    
 Marketing.Spend  3.268e-02  2.127e-02   1.537    0.134    
 State2           1.213e+02  3.751e+03   0.032    0.974    # lm() created the dummy variable State2 and State3 automatically, so redundant dependency is        avoided
@@ -101,4 +101,21 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 Residual standard error: 9908 on 34 degrees of freedom
 Multiple R-squared:  0.9499,	Adjusted R-squared:  0.9425 
 F-statistic:   129 on 5 and 34 DF,  p-value: < 2.2e-16
+
+21. # function for backward elimination
+backwardElimination = function(x, sl) {
+  numVars = length(x)
+  for (i in c(1:numVars)){
+    regressor = lm(formula = Profit ~ ., data = x)
+    maxVar = max(coef(summary(regressor))[c(2:numVars), "Pr(>|t|)"]) # using max and coef fn
+    if (maxVar > sl){
+      j = which(coef(summary(regressor))[c(2:numVars), "Pr(>|t|)"] == maxVar) # using which fn
+      x = x[, -j] # removing that from the vector
+    }
+    numVars = numVars - 1
+  }
+  return(summary(regressor)) # returning summary of regressor
+}
+
+22.
 ```
