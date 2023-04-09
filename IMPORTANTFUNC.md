@@ -27,4 +27,26 @@ test_set[,2:3] = scale(test_set[,2:3])
 15. regressor = lm(formula = Salary ~ YearsExperience,
                data = training_set)
 # the lm() function takes care of FEATURE SCALING, so scale function is not required
+16. # Fitting Simple Linear Regression to the Training set
+regressor = lm(formula = Salary ~ YearsExperience, # means Salary is proportional to YearsExperience
+               data = training_set)
+17.summary(regressor) # Shows how to use summary() funciton
+
+Call:
+lm(formula = Salary ~ YearsExperience, data = training_set) # formula where Salary is Dependent var, YearExperience is Independent var, model is build on training_set
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-7325.1 -3814.4   427.7  3559.7  8884.6 
+
+Coefficients: # Important
+                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)        25592       2646   9.672 1.49e-08 *** # Stats significance. No star = No signf. and 3 Star = Highly significant
+YearsExperience     9365        421  22.245 1.52e-14 *** # Lower P value mean more Stat significant i.e. independent var will has significant effect on # dependent var.
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 5391 on 18 degrees of freedom
+Multiple R-squared:  0.9649 # Used for single var.,	Adjusted R-squared:  0.963 # Used for multiple independent var
+F-statistic: 494.8 on 1 and 18 DF,  p-value: 1.524e-14
 ```
