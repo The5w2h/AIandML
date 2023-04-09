@@ -18,7 +18,8 @@
   * Make verdict
 
 ### Feature Scaling
-> <span style="color:'Red'">**RULE** </span>
+<span style="color:'red'">**RULE** </span>
+> <span style="color:'red'">**RULE** </span>
 > Feature scaling is applied on *Columns ONLY*. Can’t be applied across a column.
 
 *Why to use?*
