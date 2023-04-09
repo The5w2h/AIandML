@@ -29,7 +29,7 @@
 Values are always between [0;1]
 * Get max in the col
 * Get min in the col
-> $$ x - x<sub>min</sub> \over x~max~ - x~min~ $$
+> $$ x - x_min \over x_max- x_min $$
 ##### 2. Standardization: 
 Values are always between [-3;+3]
 1. Find $\mu$
