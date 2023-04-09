@@ -5,6 +5,7 @@ dataset = read.csv('Position_Salaries.csv')
 dataset = dataset[2:3]
 
 # Splitting the dataset into the Training set and Test set
+# ** Only 10 obs so no need to divide into train and test
 # # install.packages('caTools')
 # library(caTools)
 # set.seed(123)
@@ -45,7 +46,7 @@ library(ggplot2)
 ggplot() +
   geom_point(aes(x = dataset$Level, y = dataset$Salary),
              colour = 'red') +
-  geom_line(aes(x = dataset$Level, y = predict(poly_reg, newdata = dataset)),
+  geom_line(aes(x = dataset$Level, y = predict(poly_reg, newdata = dataset)), #predict(model,dataset)
             colour = 'blue') +
   ggtitle('Truth or Bluff (Polynomial Regression)') +
   xlab('Level') +
@@ -54,11 +55,11 @@ ggplot() +
 # Visualising the Regression Model results (for higher resolution and smoother curve)
 # install.packages('ggplot2')
 library(ggplot2)
-x_grid = seq(min(dataset$Level), max(dataset$Level), 0.1)
+x_grid = seq(min(dataset$Level), max(dataset$Level), 0.1) #x_grid is a sequence. Sequence is a loop
 ggplot() +
   geom_point(aes(x = dataset$Level, y = dataset$Salary),
              colour = 'red') +
-  geom_line(aes(x = x_grid, y = predict(poly_reg,
+  geom_line(aes(x = x_grid, y = predict(poly_reg, # x_grid usage
                                         newdata = data.frame(Level = x_grid,
                                                              Level2 = x_grid^2,
                                                              Level3 = x_grid^3,
@@ -69,7 +70,7 @@ ggplot() +
   ylab('Salary')
 
 # Predicting a new result with Linear Regression
-predict(lin_reg, data.frame(Level = 6.5))
+predict(lin_reg, data.frame(Level = 6.5)) # dataset of only 1 line, only 1 cell
 
 # Predicting a new result with Polynomial Regression
 predict(poly_reg, data.frame(Level = 6.5,
