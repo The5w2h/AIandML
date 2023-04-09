@@ -120,3 +120,12 @@ $b_0$ and $b_1$ should be such that, $\epsilon^2$ is **minimized**.
 $$
 \hat{y} = b_0 + b_1 X_1 + b_2 X_2 + b_3 X_3 + ... + b_n X_n
 $$
+
+### Assumption
+**Anscombe's Quartet** dataset should be fit for using Linear Regression
+1. Linearity: linear rel between y and x
+2. Homoscedasticity: equal varince (i.e. there should **No Cone**)
+3. Mutlivariate Normality: normality of error distribution 😕. What does this mean?
+4. Independence of obs: No correlation $\rho$ = 0 between observation. No pattern in data. e.g. Stock market
+5. Lack of multicollinearity: Predictors should not be correlated
+6. No **Outlier**
