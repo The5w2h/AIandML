@@ -18,7 +18,7 @@
   * Make verdict
 
 ### Feature Scaling
-<span style="color:'#FF0000'"> **RULE** </span>
+💡 <span style="color:'#FF0000'"> **RULE** </span>
 > <span style="color:'red'">**RULE** </span>
 > Feature scaling is applied on *Columns ONLY*. Can’t be applied across a column.
 
@@ -62,7 +62,7 @@ $\therefore$ Person 2 is closer to Person 1 in Age.
 
 > **Predict dependent var (col) based on independent vars (cols)**
 
-#### Data Preprocessing
+### Data Preprocessing Steps
 1. Get the **DataSet**
 2. Import the lib
 3. Import the DataSet
