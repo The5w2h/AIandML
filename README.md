@@ -85,7 +85,8 @@ $$
 \hat{y} = b_0 + b_1 X_1
 $$
 
-where $\hat{y}$ = dependent var, <br>
+where <br>
+$\hat{y}$ = dependent var, <br>
   $b_0$ = y intercept (a constant), <br>
   $b_1$ = , <br>
   $X_1$ = independent variable <br>
