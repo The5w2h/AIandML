@@ -117,5 +117,27 @@ backwardElimination = function(x, sl) {
   return(summary(regressor)) # returning summary of regressor
 }
 
-22.
+22. # Fitting Polynomial Regression to the dataset
+dataset$Level2 = dataset$Level^2
+dataset$Level3 = dataset$Level^3
+dataset$Level4 = dataset$Level^4
+poly_reg = lm(formula = Salary ~ .,
+              data = dataset)
+              
+23. x_grid = seq(min(dataset$Level), max(dataset$Level), 0.1) # x_grid is a sequence. Sequence is a LOOP
+ggplot() +
+  geom_point(aes(x = dataset$Level, y = dataset$Salary),
+             colour = 'red') +
+  geom_line(aes(x = x_grid, y = predict(poly_reg, # x_grid usage
+                                        newdata = data.frame(Level = x_grid,
+                                                             Level2 = x_grid^2,
+                                                             Level3 = x_grid^3,
+                                                             Level4 = x_grid^4))),
+            colour = 'blue') +
+  ggtitle('Truth or Bluff (Polynomial Regression)') +
+  xlab('Level') +
+  ylab('Salary')
+  
+ 24. # Using predict fn
+ predict(lin_reg, data.frame(Level = 6.5)) # dataset of only 1 line, only 1 cell
 ```
